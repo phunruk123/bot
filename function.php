@@ -2,7 +2,7 @@
 $host = '149.28.29.240:3306';
 $user = 'root';
 $pass = 'Pfsense@root';
-$database = 'demo';
+$database = 'main';
 $con = new mysqli($host, $user, $pass, $database);
 mysqli_set_charset($con, "utf8");
 
