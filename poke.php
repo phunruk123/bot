@@ -13,7 +13,7 @@ if (!is_null($events['events'])) {
 		$groupId = $event['source']['groupId'];
 
 		//ล็อคห้องไลน์
-		if (in_array($groupId, ['Cdd64c6897ec79239b5a6dda810959d02', 'Cb8a3124f5b0ca244d18d93e8cf0a6719', 'Ce890273318ba93fbef2641153c9faf43'])) {
+		if (in_array($groupId, [''])) {
 
 			//รับค่าสำคัญจาก line
 			$type = $event['message']['type'];
@@ -518,7 +518,7 @@ xxxx
 หากท่านสนใจใช้บริการของเรา
 ติดต่อด้านล่างนะคะ
 Site:http://www.rbtech.co.th
-(ระบบ สำหรับกลุ่ม บ้านโพธิ์ทองป๊อกเด้ง  เท่านั้น)
+(ระบบ สำหรับกลุ่ม phunruk เท่านั้น)
 groupId : $groupId";
 		}
 	}
